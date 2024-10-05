@@ -26,7 +26,7 @@ git clone <repository-url>
 cd <repository-directory>
 ```
 
-### 2. Install Dependencie
+### 2. Install Dependencies
 Next, you’ll need to install the required Python dependencies for the project. To do this, simply run:
     
 ```bash
