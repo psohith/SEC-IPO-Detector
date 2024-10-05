@@ -16,11 +16,10 @@ This `README.md` file provides instructions so that anyone can easily set up and
 - **Export to CSV**: Detected IPO filings are automatically saved to a CSV file for record-keeping.
 
 ## Setup Instructions
-
 To get started with the SEC IPO Detector, follow these steps:
 
 ### 1. Clone the Repository
-- Begin by cloning the repository to your local machine. Run the following commands in your terminal:
+Begin by cloning the repository to your local machine. Run the following commands in your terminal:
 
 ```bash
 git clone <repository-url>
@@ -28,14 +27,14 @@ cd <repository-directory>
 ```
 
 ### 2. Install Dependencie
-- Next, you’ll need to install the required Python dependencies for the project. To do this, simply run:
+Next, you’ll need to install the required Python dependencies for the project. To do this, simply run:
     
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 3. Running the Application
-- Once you've installed the dependencies, you're ready to run the IPO detector. To start the application, use the following command:
+Once you've installed the dependencies, you're ready to run the IPO detector. To start the application, use the following command:
     
 ```bash
 python3 -m src.detector
