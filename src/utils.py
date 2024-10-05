@@ -1,6 +1,7 @@
 # utils.py
 import csv
 import os
+from datetime import datetime
 
 def initialize_csv(file_path):
     """Initialize CSV file with headers if it does not exist."""
