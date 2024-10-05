@@ -26,13 +26,17 @@ Begin by cloning the repository to your local machine. Run the following command
 git clone <repository-url>
 cd <repository-directory>
 ```
-### 2. Install Dependencies**
+
+### 2. Install Dependencie
     Next, you’ll need to install the required Python dependencies for the project. To do this, simply run:
+    
 ```bash
 pip install -r requirements.txt
 ```
-### 3. Running the Application**
+
+### 3. Running the Application
     Once you've installed the dependencies, you're ready to run the IPO detector. To start the application, use the following command:
+    
 ```bash
 python3 -m src.detector
 ```
