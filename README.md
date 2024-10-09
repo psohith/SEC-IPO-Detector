@@ -32,8 +32,20 @@ Next, you’ll need to install the required Python dependencies for the project.
 ```bash
 pip install -r requirements.txt
 ```
+### 3. Set OpenAI API key
+Generate an OpenAI API Key, once you have your API key, you need to export it as an environment variable. 
 
-### 3. Running the Application
+* On Linux/macOS, use the following command
+```bash
+export OPENAI_API_KEY="your_api_key_here"
+```
+* On Windows os
+```bash
+setx OPENAI_API_KEY "your_api_key_here"
+```
+
+
+### 4. Running the Application
 Once you've installed the dependencies, you're ready to run the IPO detector. To start the application, use the following command:
     
 ```bash
