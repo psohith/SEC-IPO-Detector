@@ -2,6 +2,7 @@
 import csv
 import os
 from datetime import datetime
+import re
 
 def initialize_csv(file_path):
     """Initialize CSV file with headers if it does not exist."""
@@ -39,3 +40,9 @@ def get_latest_updated_time(file_path):
                 latest_time = updated_time
 
     return latest_time
+
+def normalize_spaces_and_newlines(text):
+    """Replaces multiple spaces with one and multiple newlines with one.Converts the text to lowercase"""
+    text = re.sub(r' +', ' ', text)
+    text = re.sub(r'\n+', '\n', text)
+    return text.lower()
