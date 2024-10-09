@@ -3,7 +3,7 @@ client = OpenAI()
 
 def get_gpt_responce(document_text):
     completion = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": "You are a financial expert assistant at  Securities and Exchange Commission."},
             {
